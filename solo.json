@@ -1,4 +1,10 @@
 {
-
-  "run_list": ["apt", "build-essential", "berkshelf" ]
+  "apt": {
+    "mirror": "us-east-1.ec2"
+  },
+  "run_list": [
+    "recipe[apt]",
+    "recipe[build-essential]",
+    "recipe[wercker-redis]"
+  ]
 }
