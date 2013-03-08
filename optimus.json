@@ -1,13 +1,18 @@
 {
-	"name" : "redis",
-	"version" : "0.0.1",
-  "stackInfo" :{},
-  "isPrivate" : false,
-  "mainDetect" : [],
-  "supportDetect" : [],
-  "packageIgnore" : [],
-  "environmentVariables" : [
-    {"WERCKER_REDIS_PORT":"6379"},
-    {"WERCKER_REDIS_URL":"redis://$$HOST$$:6379"}],
-  "priority" : 1000
+  "name": "redis",
+  "version": "0.0.1",
+  "stackInfo": {},
+  "isPrivate": false,
+  "mainDetect": [],
+  "supportDetect": [],
+  "packageIgnore": [],
+  "environmentVariables": [
+    {
+      "WERCKER_REDIS_PORT": "6379"
+    },
+    {
+      "WERCKER_REDIS_URL": "redis://$$HOST$$:6379"
+    }
+  ],
+  "priority": 1000
 }
